@@ -5,6 +5,10 @@ theme = 'hugo-theme-stack-custom'
 
 defaultContentLanguage = 'zh-cn'
 
+[caches]
+[caches.images]
+dir = ':cacheDir/images'
+
 [params]
 [params.widgets]
 [[params.widgets.homepage]]
