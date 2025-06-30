@@ -1,0 +1,27 @@
+baseURL = 'https://z-c.github.io/'
+languageCode = 'zh-cn'
+title = 'z-c的博客'
+theme = 'hugo-theme-stack-custom'
+
+defaultContentLanguage = 'zh-cn'
+
+[params]
+[params.widgets]
+[[params.widgets.homepage]]
+type = 'search'
+[[params.widgets.homepage]]
+type = 'archives'
+limit = 5
+[[params.widgets.homepage]]
+type = 'tag-cloud'
+limit = 5
+[[params.widgets.page]]
+type = 'toc'
+
+[params.comments]
+enabled = true
+provider = 'utterances'
+[params.comments.utterances]
+repo = "z-yic/blog-comments"
+issue-term = "url"
+label = "comment"
